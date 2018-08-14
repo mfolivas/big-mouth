@@ -11,8 +11,11 @@
     "dependencies": {
         "bluebird": "^3.5.1",
         "co": "^4.6.0",
+        "mustache": "^2.3.1",
         "serverless": "^1.30.0",
-        "serverless-pseudo-parameters": "^2.1.0"
+        "serverless-pseudo-parameters": "^2.1.0",
+        "superagent": "^3.8.3",
+        "superagent-promise": "^1.1.0"
     },
     "devDependencies": {
         "aws-sdk": "^2.288.0"
