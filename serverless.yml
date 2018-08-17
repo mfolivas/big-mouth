@@ -44,7 +44,7 @@ functions:
           path: /restaurants/search
           method: post
           authorizer: arn:aws:cognito-idp:us-east-1:556235777978:userpool/us-east-1_jRCmLSqyZ
-    environment:
+    environment:  
       restaurants_table: restaurants
 
 resources:
