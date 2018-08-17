@@ -39,7 +39,7 @@ function* getRestaurants() {
     .set('Host', opts.headers['Host'])
     .set('X-Amz-Date', opts.headers['X-Amz-Date'])
     .set('Authorization', opts.headers['Authorization'])
-    .set('X-Amz-Security-Token', opts.headers['X-Amz-Security-Token'])).body;
+    .set('X-Amz-Security-Token', opts.headers['X-Amz-Security-Token'])).body
 }
 
 module.exports.handler = co.wrap(function* (event, context, callback) {
